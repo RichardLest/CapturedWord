@@ -5,6 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
+import android.database.Cursor
 
 @Dao
 interface WordDao {
@@ -19,4 +20,7 @@ interface WordDao {
 
     @Query("SELECT * FROM word_table")
     suspend fun getAllWords(): List<Word>
+
+    @Query("SELECT * FROM word_table")
+    fun getAllWordsCursor(): Cursor?
 }

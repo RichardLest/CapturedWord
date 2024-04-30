@@ -37,7 +37,7 @@ public class TextSelectionActivity extends Activity {
         WordDao wordDao = wordDatabase.wordDao();
 
         // Crear un objeto Word con el texto seleccionado
-        Word word = new Word(text);
+        Word word = new Word(text, null, null, null, null);
 
         // Insertar la palabra en la base de datos
         wordDao.insert(word);

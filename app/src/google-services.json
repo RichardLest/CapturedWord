@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752010081247",
+    "project_id": "projectcapturedword",
+    "storage_bucket": "projectcapturedword.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752010081247:android:b2a6f77d76e4a2f28c4a6a",
+        "android_client_info": {
+          "package_name": "com.example.capturedword"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX2Q2hHktU3MzTOWDFnf4z6K0ORx9jndY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
